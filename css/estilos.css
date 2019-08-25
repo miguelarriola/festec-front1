@@ -1,0 +1,186 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+:root {
+  --fuentePrincipal: Verdana, Geneva, Tahoma, sans-serif;
+  --colorFuente: #666666;
+  --colorPrincipal: #ffff00;
+  --colorSecundario: #0d0d0d;
+  --colorFondo: #f2f2f2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fuentePrincipal);
+  color: var(--colorFuente);
+  background-color: var(--colorFondo);
+  font-size: 2rem;
+}
+
+/* ********** Elementos ********** */
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: normal;
+  display: inline;
+  margin: 2rem;
+  border-bottom: 3px solid #000;
+}
+
+/* ********** Contenedores ********** */
+
+.contenedor {
+  max-width: 920px;
+  width: 90%;
+  margin: auto;
+}
+
+.contenido {
+  max-width: 780px;
+  text-align: justify;
+}
+
+/* ********** Organizar ********** */
+
+.flex {
+  display: flex;
+}
+
+.separar {
+  justify-content: space-between;
+}
+
+.cent-v {
+  align-items: center;
+}
+
+.centrar {
+  margin: auto;
+}
+
+/* ********** Padding ********** */
+
+.ph1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pv1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pv6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* ********** Margin ********** */
+
+.m0 {
+  margin: 0;
+}
+
+.m6 {
+  margin: 6rem;
+}
+
+/* ********** colores ********** */
+
+.bgc-princ {
+  background-color: var(--colorPrincipal);
+}
+
+.bgc-blanco {
+  background-color: #fff;
+}
+
+/* /////////// Encabezado /////////// */
+
+h1 {
+  font-family: "Onyx", "Times New Roman", Times, serif;
+  font-size: 5rem;
+}
+
+nav.menu a:hover {
+  background-color: #fff;
+}
+
+/* /////////// Hero /////////// */
+
+section.hero {
+  background-color: #000;
+}
+
+section.hero img {
+  -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, right bottom, from(transparent), to(white));
+}
+
+section.hero h2 {
+  color: var(--colorPrincipal);
+}
+
+section.hero p {
+  color: #fff;
+}
+
+/* /////////// Catalogo /////////// */
+
+div.catalogo {
+  margin: 4rem 2rem;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+div.producto {
+  background-color: var(--colorFondo);
+}
+
+div.producto figure {
+  margin: 2rem;
+  float: left;
+}
+
+div.producto .nombre-prod {
+  background-color: var(--colorPrincipal);
+}
+
+div.producto .nombre-prod h3 {
+  margin: 0;
+  color: #000;
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+div.producto .detalle-prod {
+  padding-top: 2rem;
+}
+
+div.producto .detalle-prod p,
+div.producto .detalle-prod span {
+  font-size: smaller;
+  margin: 0;
+}
+
+div.producto .detalle-prod span {
+  color: #f15a24;
+}
+
+div.producto .detalle-prod span.menudeo {
+  color: #ed1c24;
+}

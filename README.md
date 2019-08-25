@@ -1,6 +1,6 @@
 # FES Temas de Compu Frontend 1
 
-Fue el primer ejercicio de programación fron-tend que hice en la clase de temas especiales de computación de la carrera. En la primer versión se usó Flex-Box, CSS Grid, Normalize y el enfoque Functional CSS para hacerlo más mantenible.
+Fue el primer ejercicio de programación fron-tend que hice en la clase de temas especiales de computación de la carrera. En la primer versión se usó Flex-Box, CSS Grid, Normalize y el enfoque Functional CSS para hacerlo más mantenible. También usa la técnica de reflexión de imágenes en navegadores basados en webkit.
 
 ## Comenzando 🚀
 
